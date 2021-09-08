@@ -51,7 +51,7 @@ var culebrita ={
 
 inicializarMatrizJuego();
 
-textoP.innerHTML ='Vidas Restantes: '+ vidas + '&nbsp &nbsp &nbsp Largo Culebirta: '+culebrita.largo;
+textoP.innerHTML ='Vidas Restantes: '+ vidas + '&nbsp &nbsp &nbsp Largo Culebrita: '+culebrita.largo;
 
 pared.imagen.src = pared.url;
 pared.imagen.addEventListener("load",cargarPared);
@@ -175,7 +175,7 @@ function moverCulebrita(nuevoXCabeza,nuevoYCabeza)
       vidas--;
       inicializarMatrizJuego();
   }
-  textoP.innerHTML ='Vidas Restantes: '+ vidas + '&nbsp &nbsp &nbsp Largo Culebirta: '+culebrita.largo;
+  textoP.innerHTML ='Vidas Restantes: '+ vidas + '&nbsp &nbsp &nbsp Largo Culebrita: '+culebrita.largo;
   if(vidas==0)
   {
     textoP2.innerHTML ='Perdiste';
