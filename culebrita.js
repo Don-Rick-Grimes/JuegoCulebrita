@@ -8,7 +8,7 @@ var textoP2 = document.getElementById("texto_p2");
 var movimiento = 5;
 var vidasIniciales = 3;
 var vidas = vidasIniciales;
-var limiteLargo = 20;
+var limiteLargo = 40;
 var teclas = {
   Arriba: 38,
   Abajo: 40,
